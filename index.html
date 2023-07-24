@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<title>Sean Contacts</title>
+	</head>
+
+	<body>
+
+    <a href="#maincontent">Skip to main content</a>
+
+    <h1>Address Book</h1>
+
+     <nav>
+      <ul>
+        <li><a href="#">Name</a></li>
+        <li><a href="#">Phone</a></li>
+        <li><a href="#">E-mail</a></li>
+        <li> <a href="#">Relationship</a></li>
+      </ul>
+    </nav> 
+
+    <main id="maincontent">
+      <table>
+        <caption>Sean Contacts</caption>
+        <thead></thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">E-mail</th>
+            <th scope="col">Relationship</th>
+          </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="4">Sean Contact List</td>
+        </tr>
+      </tfoot>
+        <tbody>
+          <tr>
+            <th scope="row">Karla Warren</th>
+            <td>919-555-7777</td>
+            <td>kwarren@example.com</td>
+            <td>Family</td>
+          </tr>
+          <tr>
+            <th scope="row">Maliyah Warren</th>
+            <td>919-555-8888</td>
+            <td>Mwarren@example.com</td>
+            <td>Family</td>
+          </tr>
+          <tr>
+            <th scope="row">Alfonza Howard</th>
+            <td>910-777-8292</td>
+            <td>Ahoward@example.com</td>
+            <td>Friend</td>
+          </tr>
+          <tr>
+            <th scope="row">Isiah Minor</th>
+            <td>984-222-6789</td>
+            <td>Iminor@example.com</td>
+            <td>Friend</td>
+          </tr>
+          <tr>
+            <th scope="row">Zoey Warren</th>
+            <td>919-888-8888</td>
+            <td>Zwarren@example.com</td>
+            <td>Family</td>
+          </tbody>
+      </table>
+  </main>
+
+    <div width="100%">
+
+      <div> 
+        Family-60% <br> <img src="blue.png" alt="graph line showing 60%" height="20px" width="60px">
+      </div>
+      <div> 
+        Friends-40% <br> <img src="orange.png" alt="graph line showing 40%" height="20px" width="40px">
+      </div>
+    </div>
+
+
+
+      <p>Update or Add contact information.</p>
+
+
+    <form action="index.html" method="post">
+
+        <h1>Add Contacts</h1>
+
+        <ol>
+          <li>Create New Contact</li>
+          <li>Add Information</li>
+          <li>Save Information</li>
+        </ol>
+
+        <fieldset>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="contact_name"> <br>
+
+          <label for="phone">Phone:</label>
+          <input type="phone" id="phone" name="contact_phone"><br>
+
+          <label for="mail">E-Mail:</label>
+          <input type="email" id="mail" name="contact_email"><br>
+
+          <label for="relationship">Relationship:</label>
+          <input type="text" id="relationship" name="contact_relationship"><br>
+
+          <button type="submit">Save</button>
+
+        </fieldset>
+    </form>
+
+    <caption>Picture of Address Card File</caption>
+    <img src="Address_book_1.jpg" alt="picture of address book" width="400px">
+
+    <dl>
+      <dt>Name</dt>
+      <dd>Sean Warren</dd>
+      <dt>Phone</dt>
+      <dd>919-222-8888</dd>
+      <dt>Address</dt>
+      <dd>100 South St, Durham Nc</dd>
+    </dl>
+
+    </body>
+      
+    </html>
